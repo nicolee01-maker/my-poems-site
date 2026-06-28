@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Georgia", serif;
+}
+
+
+body{
+    background:#faf8f5;
+    color:#333;
+    line-height:1.7;
+}
+
+
+
+header{
+    padding:25px 8%;
+    background:white;
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.logo{
+    font-size:25px;
+}
+
+
+ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+
+a{
+    text-decoration:none;
+    color:#333;
+}
+
+
+.hero{
+
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px;
+
+}
+
+
+.hero h2{
+
+    font-size:55px;
+    max-width:700px;
+
+}
+
+
+.hero p{
+
+    margin:25px auto;
+    max-width:600px;
+    font-size:20px;
+
+}
+
+
+
+button{
+
+    padding:14px 30px;
+    border:none;
+    background:#333;
+    color:white;
+    cursor:pointer;
+    border-radius:30px;
+
+}
+
+
+
+section{
+
+    padding:80px 10%;
+
+}
+
+
+
+section h2{
+
+    text-align:center;
+    font-size:38px;
+    margin-bottom:40px;
+
+}
+
+
+
+.cards{
+
+display:flex;
+gap:25px;
+justify-content:center;
+
+}
+
+
+
+.card{
+
+background:white;
+padding:30px;
+border-radius:15px;
+width:300px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+}
+
+
+
+.text{
+
+max-width:700px;
+margin:auto;
+text-align:center;
+
+}
+
+
+
+.gallery{
+
+display:flex;
+justify-content:center;
+gap:30px;
+
+}
+
+
+
+.gallery img{
+
+width:250px;
+border-radius:15px;
+
+}
+
+
+
+.gallery p{
+
+text-align:center;
+
+}
+
+
+
+form{
+
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+
+}
+
+
+
+input, textarea{
+
+padding:15px;
+border:1px solid #ddd;
+font-size:16px;
+
+}
+
+
+textarea{
+
+height:150px;
+
+}
+
+
+
+footer{
+
+padding:30px;
+text-align:center;
+background:white;
+
+}
+
+
+
+
+@media(max-width:800px){
+
+nav{
+
+flex-direction:column;
+gap:20px;
+
+}
+
+
+.cards,
+.gallery{
+
+flex-direction:column;
+align-items:center;
+
+}
+
+
+.hero h2{
+
+font-size:38px;
+
+}
+
+}
